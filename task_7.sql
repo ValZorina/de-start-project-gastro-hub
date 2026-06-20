@@ -1,5 +1,5 @@
 /*добавьте сюда запросы для решения задания 6*/
-LOCK TABLE cafe.managers IN SHARE MODE;
+LOCK TABLE cafe.managers in EXCLUSIVE MODE;
 
 ALTER TABLE cafe.managers ADD COLUMN manager_phone_upd VARCHAR[];
 
